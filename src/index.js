@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
-import { MultipleCustomHooks } from './03-exaples/MultipleCustomHooks';
+//import { MultipleCustomHooks } from './03-exaples/MultipleCustomHooks';
+import { FocusScreen } from './04-useRef/FocusScreen';
 //import { CounterApp } from './01-useState/CounterApp';
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
 //import { SimpleForm } from './02-useEffect/SimpleForm';
@@ -11,7 +12,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MultipleCustomHooks />
+    <FocusScreen />
   </React.StrictMode>
 );
 
