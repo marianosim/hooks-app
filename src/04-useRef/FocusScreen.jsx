@@ -14,7 +14,7 @@ export const FocusScreen = () => {
             <hr />
 
             <input
-                
+
                 type="text"
                 placeholder="Ingrese su nombre"
                 className="form-control mb-4"
@@ -26,7 +26,7 @@ export const FocusScreen = () => {
                 className="form-control mb-4"
             />
             <input
-                
+
                 type="text"
                 placeholder="Ingrese su nombre"
                 className="form-control mb-4"

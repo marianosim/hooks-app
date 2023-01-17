@@ -5,12 +5,12 @@ import { LoadingCharacter } from './LoadingCharacter';
 
 export const MultipleCustomHooks = () => {
 
-    const {counter, increment} = useCounter(1);
+    const { counter, increment } = useCounter(1);
 
     const { data, isLoading, hasError } = useFetch(`https://rickandmortyapi.com/api/character/${counter}`);
 
     const { name, image } = !!data && data;
-    
+
     return (
         <>
             <h1>Rick and Morty</h1>
@@ -20,7 +20,7 @@ export const MultipleCustomHooks = () => {
                 isLoading ?
                     <LoadingCharacter />
                     :
-                    <Character name={name} image={image}/>
+                    <Character name={name} image={image} />
             }
 
 
