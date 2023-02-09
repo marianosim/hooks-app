@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { MemoHook } from './06-memos/MemoHook';
+//import { CallbackHook } from './06-memos/CallbackHook';
+//import { MemoHook } from './06-memos/MemoHook';
 //import { Memorize } from './06-memos/Memorize';
 //import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './03-exaples/MultipleCustomHooks';
@@ -10,12 +11,13 @@ import { MemoHook } from './06-memos/MemoHook';
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
 //import { SimpleForm } from './02-useEffect/SimpleForm';
 //import { HooksApp } from './HooksApp';
+import { Padre } from './07-tarea-memo/Padre';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MemoHook />
+    <Padre />
   </React.StrictMode>
 );
 
