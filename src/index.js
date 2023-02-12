@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { TodoApp } from './08-useReducer/TodoApp';
 //import { CallbackHook } from './06-memos/CallbackHook';
 //import { MemoHook } from './06-memos/MemoHook';
 //import { Memorize } from './06-memos/Memorize';
@@ -11,17 +12,15 @@ import ReactDOM from 'react-dom/client';
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
 //import { SimpleForm } from './02-useEffect/SimpleForm';
 //import { HooksApp } from './HooksApp';
-import { Padre } from './07-tarea-memo/Padre';
+//import { Padre } from './07-tarea-memo/Padre';
+//import './08-useReducer/intro-reducer';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
