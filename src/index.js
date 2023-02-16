@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { TodoApp } from './08-useReducer/TodoApp';
+import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+//import { TodoApp } from './08-useReducer/TodoApp';
 //import { CallbackHook } from './06-memos/CallbackHook';
 //import { MemoHook } from './06-memos/MemoHook';
 //import { Memorize } from './06-memos/Memorize';
@@ -14,13 +16,16 @@ import { TodoApp } from './08-useReducer/TodoApp';
 //import { HooksApp } from './HooksApp';
 //import { Padre } from './07-tarea-memo/Padre';
 //import './08-useReducer/intro-reducer';
-import './index.css';
+import { MainApp } from './09-useContext/MainApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <TodoApp />
-  </React.StrictMode>
+  <BrowserRouter>
+    <React.StrictMode>
+      <MainApp />
+    </React.StrictMode>
+  </BrowserRouter>
+
 );
 
 
